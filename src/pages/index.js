@@ -3,17 +3,12 @@ import * as React from "react";
 // markup
 const IndexPage = () => {
   return (
-    <main>
-      <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-        <div class="flex-shrink-0">
-          <img class="h-12 w-12" />
-        </div>
-        <div>
-          <div class="text-xl font-medium text-black">ChitChat</div>
-          <p class="text-gray-500">You have a new message!</p>
-        </div>
+    <>
+      <div className="container mx-auto">
+        <h1>Hello</h1>
+        <button className="py-3 px-4 bg-blue-600">buuton one</button>
       </div>
-    </main>
+    </>
   );
 };
 
